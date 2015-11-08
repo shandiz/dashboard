@@ -1,0 +1,609 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;
+margin:0;}
+
+
+
+body{background:url(../img/background.jpg);
+background-size:cover;
+padding:0;
+margin:0;}
+
+.container{
+
+
+padding: 0px;}
+
+
+#usermenu{
+margin-left: 977px;
+margin-top: -48px;
+
+}
+
+#usermenu1{
+position: absolute;
+
+top:0;
+left: -486;
+z-index:1000;
+
+}
+
+#usermenu , #usermenu1{
+background-color: #1e2327;
+width: 177px;
+height: 60px;
+font-size: 12.61px;
+text-align: left;
+padding-top: 15px;
+color:#929aa2;
+
+}
+
+#badge {
+	
+	right: 122;
+	top:7;
+	}
+
+
+#badge1{
+	
+	right: 122;
+	top:7;
+	}
+
+
+#badge , #badge1{
+	position: absolute;
+
+	height: 21px;
+width: 21px;
+border-radius: 12px;
+background-color: #f15822;
+padding-left: 7px;
+padding-top: 2px;
+color: white;
+font-size: 11px}
+
+
+
+#userdropdiv ul.dropdown-menu , #userdropdiv1 ul.dropdown-menu{background-color: #1e2327;
+
+
+
+}
+
+#userdropdiv ul.dropdown-menu li , #userdropdiv1 ul.dropdown-menu li{color: #1e2327;
+
+}
+
+#userdropdiv ul.dropdown-menu a , #userdropdiv ul.dropdown-menu1 a{color: #929aa2;
+	transition-duration:0.2s;
+
+margin-left: -20px;
+
+}
+
+#userdropdiv ul.dropdown-menu a:hover , #userdropdiv1 ul.dropdown-menu a:hover{background-color: #1e2327;
+	color: #dfdede;
+
+	transition-duration:0.2s;
+
+}
+#userul , #userul1{min-width: 179px;
+
+	margin-left: -61;
+	margin-top: 20px;
+
+}
+
+
+
+ul.list-inline{margin-left:-17px;
+
+}
+
+
+
+#usermenu img , #usermenu1 img{float: left;
+margin-left: 17px;}
+
+#userdropdiv , #userdropdiv1{margin-left: 60px;
+margin-top: 5px;}
+
+
+
+#wrapper{width: 100%;
+
+
+
+	border-radius:  5px ;
+
+	margin:auto;
+	margin-top: 172px;
+	margin-bottom:172px;
+	background-color: #f3f3f3;
+	
+	height: 820px;}
+
+
+#logo{margin-left:0px;}
+
+
+ .navbar-default{ background-color:#34383c;
+  }
+  
+  .navbar-default li a{padding-top:20px;
+
+  }
+
+  .navbar-default li{margin-right: -13px;}
+
+
+  
+ .navbar-inverse .navbar-toggle {
+                        color:  #999999;
+                        font-weight: bold;
+                        border-color: #999999;
+                      }
+        .navbar-inverse .navbar-toggle:hover {
+                        background-color:white;
+                       color: black; }
+
+        .navbar-inverse .navbar-toggle .glyphicon {
+                        color:  #999999;}
+
+        .navbar-inverse .navbar-toggle:hover .glyphicon {
+                        color: black; }
+
+  
+  
+.navbar{margin-bottom:0;}
+
+.navbar-left{margin-left:0;}
+
+nav  li{margin-left:20px;}
+
+
+
+#rec{position: absolute;
+	top:24px;
+	left: 66px;
+width: 0;
+height: 0;
+border-top: 7px solid transparent;
+border-bottom:7px solid transparent;
+border-right:6px solid white;}
+
+#aside{
+	position: absolute;
+	margin-top: 61px;
+	
+	width:72px;
+height:759px;
+background-color:#91c46b;}
+
+#aside li{list-style:none;
+padding-top:10px;
+transition-duration:0.2s
+}
+
+#aside li:hover{opacity:0.6;
+margin-left:4px;
+transition-duration:0.2s}
+
+#aside ul{padding-left:20px;
+}
+.glyphicon.glyphicon-plus{font-size:10px;}
+
+#header{height:62px;
+background-color:#ffffff;
+border-bottom:2px solid #e2e2e2;
+padding-top:20px;
+padding-left:105px;
+}
+
+#header p {font-size:16.21px;
+color: #6c757e;
+font-weight: 700;
+
+}
+
+#dashboard-nav{height: 50px;}
+.nav > ul {width:100%;
+	padding-left:84px;
+padding-top:17px;
+padding-bottom:40px;}
+
+.nav > ul > li{float:left;
+width:14.42%;
+				
+		}
+.nav ul li {list-style:none;
+	
+}
+
+.numb{font-size:30px;
+color:#6c757e}
+.stat{color:#a5acb4;}
+
+.nav > ul > li:nth-child(odd){border-left:3px solid #91c46b;}
+
+.nav > ul > li:nth-child(2){border-left:3px solid #297d7d;}
+
+.nav > ul > li:nth-child(4) , .nav > ul > li:nth-child(6){border-left:3px solid #f15822;}
+
+
+#graph , #graph2{padding-top:25px;
+
+}
+
+#inside{width: 100px;
+height: 50px;
+background-color: blue;
+position: absolute;
+
+}
+
+
+
+#header-middle-left{
+	list-style-type: none;
+	height: 30px;
+	width: 530px;
+	
+}
+
+
+
+#active{margin-left: 0;}
+#active , #tournoments{margin-top: 47px;}
+
+
+#listdown{position: absolute;
+top:845;
+left:70;
+z-index: 7;
+width: 688px;
+color:#6c757e;}
+
+#listdown li{
+	width: 132px;
+	font-size: 16.5;
+	
+}
+#listdown li:nth-child(2){
+	width: 114px;
+	
+}
+#listdown li:nth-child(3){
+	width: 118px;
+	
+}
+
+
+#test5{float: right;
+margin-top: -30px;}
+
+#dLabel1{background-color:#f3f3f3;
+border-radius: 4px;
+border-color: #f3f3f3;
+border: 1px solid #d7d7d7;
+color: #9f9e9e;
+font-size: 9px;
+padding: 3px 7px 3px 7px;}
+
+
+#test5 ul.dropdown-menu{background-color: #f3f3f3;
+
+font-size: 9px;
+padding: 0 0;
+}
+
+#test5 ul.dropdown-menu li{color: #9f9e9e;
+
+}
+
+#test5 ul.dropdown-menu a{color: #9f9e9e;
+
+}
+
+#test5 ul.dropdown-menu a:hover{background-color: #9f9e9e;
+	color: #dfdede;
+
+}
+.dropdown-menu{min-width: 0px;
+}
+
+
+#header-bottom-left{
+	list-style-type: none;
+	height: 30px;
+	width: 505px;
+	margin-left: -20px;
+}
+
+
+
+#test2{float: right;}
+
+#pagination{border-radius: 10px;}
+ 	
+
+ 	#pagination li{
+ 	float: left;
+ 	
+ 	text-align: center;
+ 	padding-top: 7px;*/
+ 	
+ 	
+
+ 	}
+
+
+
+#pagination li a{display: block;
+	text-decoration: none;
+height: 13px;
+width: 16.5px;
+margin-top: 0px;
+}
+
+
+
+#pagination li:hover{background-color: #dfdfdf;}
+
+
+#pagination{
+	margin-top: -26px;
+
+	height: 20px;
+width: 35px;
+border-radius: 2px;
+border: 1px solid #d7d7d7;
+list-style-type: none;
+
+}
+
+
+
+#circlesmall,#circlesmall1{width: 3px;
+height: 3px;
+background-color: #b2d782;
+border: 1px  #b2d782 solid;
+border-radius:2px;
+
+margin-left: 25px;
+margin-top: 6px;}
+
+
+
+
+
+
+#testforhover , #testforhover2{width: 54px;
+height: 20px;
+background-color: #297d7d;
+position: absolute;
+top: 0;
+left:0;
+border-radius: 3px;
+color: white;
+font-size: 9px;
+visibility: hidden;
+
+}
+
+#testforhover p{margin-left: 8px;
+margin-top: 4px;}
+
+#rechover{
+
+position: relative;
+	top:-7px;
+	left: 23px;
+width: 0;
+height: 0;
+border-right: 4px solid transparent;
+border-left:4px solid transparent;
+border-top:3px solid #297d7d;
+
+
+}
+
+
+
+#testforhover2{
+background-color: #1c344c;
+
+}
+
+#testforhover2 p{margin-left: 5px;
+margin-top: 4px;}
+
+#rechover2{
+
+position: relative;
+	top:-7px;
+	left: 23px;
+width: 0;
+height: 0;
+border-right: 4px solid transparent;
+border-left:4px solid transparent;
+border-top:3px solid #1c344c;
+
+
+}
+
+ul.week.list-inline{width:502px;
+	position: relative;
+	top:-20;
+	left: 46.5;
+font-size: 9px;
+	color: #979ca2;
+
+
+
+}
+
+ul.week.list-inline li{width: 72px;
+/*background-color: yellow;*/
+margin-right: -4px;
+padding-top: 10px;
+border-top: 1px #abb4c0 solid;
+text-align: center;
+
+}
+
+
+.glyphicon.glyphicon-arrow-up, .glyphicon.glyphicon-arrow-down{font-size: 9px;
+color:#b3d782;}
+
+
+
+@media (max-width: 1199px) { 
+
+	#wrapper{height: auto;}
+
+	.nav > ul > li{float:left;
+width:14%;}
+
+.stat{font-size:12px;}
+#aside{height: 1365px;}
+#usermenu{background-color: #1e2327;
+margin-left: 777px;
+
+
+   }
+
+
+
+#badge{position: absolute;
+	
+	right: 122;
+	top:7;
+	
+   }
+
+
+
+
+
+}
+
+
+@media (max-width: 992px) { 
+.stat{font-size:13px;}
+.nav > ul > li{float:left;
+width:13%; }
+
+
+
+
+
+#aside{height: 1385px;}
+
+
+.nav > ul > li:nth-child(5){height:80px;}	
+
+
+#pref , #setting{margin-left:-14px;}
+
+
+
+#usermenu , #usermenu1{background-color: #1e2327;
+margin-left: 557px;
+
+
+   }
+
+
+
+#badge , #badge1{position: absolute;
+	
+	right: 122;
+	top:7;
+	
+   }
+
+
+.navbar-default li{margin-right: 0px;}
+
+
+
+}
+
+#statistics{width: 40%;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+	#aside{height: 1514px;}
+
+
+#listdown{
+top:910;
+left:70;
+}
+
+
+ .nav > ul > li{float:left;
+width:28%;
+margin-bottom:10px;}
+
+#pref , #setting , #adduser{margin-left:0px;}
+
+
+
+
+
+.nav > ul > li:nth-child(5){height:inherit;}
+.stat{font-size:14px;}
+
+
+}
+
+
+@media (min-width: 1200px) { 
+
+#activediv{margin-left: 90px;}
+#recent{margin-left: 110px;}
+#tournoments{margin-left: -54px;}
+#listdown{
+top:575;
+left:-17;
+}
+
+#listdown li{
+	width: 130px;
+	
+}
+#listdown li:nth-child(2){
+	width: 112px;
+	
+}
+#listdown li:nth-child(3){
+	width: 123px;
+	
+}
+
+
+
+.navbar-default {padding-right: -13px;}
+
+
+#usermenu{
+margin-left: 977px;
+margin-top: -1px;
+
+}
+
+}

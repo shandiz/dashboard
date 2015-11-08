@@ -1,0 +1,126 @@
+div.flop{  
+ width: 30px;
+ height: 30px;
+ position: absolute;
+ background-color: transparent;
+ 
+
+
+
+}
+
+#f11{
+	top:158;
+	left:65;}
+
+#f12{
+	top:205;
+	left:102;
+}
+
+#f13{
+	top:185;
+	left:172;
+}
+
+#f14{
+	top:125;
+	left:244;
+}
+
+#f15{
+	top:190;
+	left:314;
+}
+
+#f16{
+	top:202;
+	left:386;
+}
+#f17{
+	top:157;
+	left:458;
+}
+#f18{
+	top:221;
+	left:493;
+}
+
+
+
+
+
+
+
+#f21{
+	top:191;
+	left:12;}
+
+#f22{
+	top:128;
+	left:48;
+}
+
+#f23{
+	top:158;
+	left:117;
+}
+
+#f24{
+	top:96;
+	left:189;
+}
+
+#f25{
+	top:191;
+	left:261;
+}
+
+#f26{
+	top:161;
+	left:331;
+}
+#f27{
+	top:145;
+	left:402;
+}
+#f28{
+	top:223;
+	left:437;
+}
+
+@media (max-width: 1199px) { 
+
+
+#f21{
+	left:65;}
+
+#f22{
+	left:102;
+}
+
+#f23{
+	left:172;
+}
+
+#f24{
+	left:244;
+}
+
+#f25{
+	left:314;
+}
+
+#f26{
+	left:386;
+}
+#f27{
+	left:458;
+}
+#f28{
+	left:490;
+}
+
+
+
+}

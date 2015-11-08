@@ -1,0 +1,322 @@
+<head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shandiz Mehrabadi</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<link rel="stylesheet" type="text/css" href="css/table.css">
+<link rel="stylesheet" type="text/css" href="css/donut3.css">
+<link rel="stylesheet" type="text/css" href="css/flop.css">
+<link rel="stylesheet" type="text/css" href="css/search.css">
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <div id="wrapper">
+    <div id="aside">
+      <div id="rec"> </div>
+      <ul>
+        <li> <img src="img/icons/dashboard.png"> </li>
+        <li> <img src="img/icons/profile.png"> </li>
+        <li> <img src="img/icons/write.png"> </li>
+        <li> <img src="img/icons/calendar.png"> </li>
+        <li> <img src="img/icons/notes.png"> </li>
+        <li> <img src="img/icons/comments.png"> </li>
+        <li> <img src="img/icons/graph.png"> </li>
+      </ul>
+    </div>
+    <nav class=" navbar navbar-default   navbar-inverse  " role="navigation">
+      <div class="navbar-header  ">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse"> <span class="sr-only">Toggle navigation</span> <span class="glyphicon glyphicon-arrow-down"></span> MENU </button>
+        <img id="logo" class=" img-responsive" src="img/logo.jpg"> </div>
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-left ">
+          <li id="adduser" ><a href="#"><span class="glyphicon glyphicon-plus"></span> Add User</a></li>
+          <li id="pref"><a  href="#" class="active1">User Preferences</a></li>
+          <li id="setting"><a href="#">Settings</a></li>
+        </ul>
+        <form method="get" action="/search" id="search" class="hidden-lg"  >
+          <input name="q" type="text" size="40"  >
+        </form>
+        <div id="usermenu" class="hidden-xs">
+          <div id="badge"> 2 </div>
+          <img class="img-circle" src="" width="30px"/>
+          <div class="dropdown" id="userdropdiv">
+            <div id="userdrop" data-target="#" href="#" data-toggle="dropdown" aria-haspopup"true" role="button" aria-expanded="false">
+              <p> Daily <span class="caret"></span></p>
+            </div>
+            <ul class="dropdown-menu" role="menu" id="userul" aria-labelledby="userdrop">
+              <li><a href="#">..........</a>
+              <li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <form method="get" action="/search" id="search1" class="visible-lg"  >
+        <input name="q" type="text" size="40"  >
+      </form>
+      <div id="usermenu1" class="visible-xs">
+        <div id="badge1"> 2 </div>
+        <img class="img-circle" src="" width="30px"/>
+        <div class="dropdown" id="userdropdiv1">
+          <div id="userdrop1" data-target="#" href="#" data-toggle="dropdown" aria-haspopup"true" role="button" aria-expanded="false">
+            <p> Daily <span class="caret"></span></p>
+          </div>
+          <ul class="dropdown-menu" role="menu" id="userul1" aria-labelledby="userdrop">
+            <li><a href="#">..........</a>
+            <li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="header">
+      <p>Dashboard<span> <img src="img/icons/wheel.png"></span></p>
+    </div>
+    <div>
+      <nav class="nav" id="dashboard-nav">
+        <ul>
+          <li>
+            <ul>
+              <li class="numb">267</li>
+              <li class="stat">Online Players</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li class="numb">1890</li>
+              <li class="stat">Hours Played</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li class="numb">22</li>
+              <li class="stat">New Tournaments</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li class="numb">16</li>
+              <li class="stat">Lifetime Fails</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li class="numb">6544</li>
+              <li class="stat">Comments</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li class="numb">568</li>
+              <li class="stat">Games Played</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="row">
+      <div  id="activediv" class="col-xs-5 col-sm-6 col-xs-offset-2  col-sm-offset-2 col-lg-offset-0"  >
+        <div id="active"  style="margin-left:0px;">
+          <div id="header-middle-left">
+            <div>
+              <h3>Active Players</h3>
+            </div>
+            <div class="dropdown" id="test5">
+              <div id="dLabel1" data-target="#" href="#" data-toggle="dropdown" aria-haspopup"true" role="button" aria-expanded="false"> Daily <span class="caret"></span> </div>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLable1">
+                <li><a href="#">Monthly</a>
+                <li>
+                <li><a href="#">Yearly</a>
+                <li>
+              </ul>
+            </div>
+          </div>
+          <div id="testforhover">
+            <p>50 <span class="glyphicon glyphicon-arrow-up">14%</span></p>
+            <div id="rechover"> </div>
+            <div id="circlesmall"> </div>
+          </div>
+          <script type="text/javascript" src="js/canvasgraph1.js"></script>
+          <div id="divgraph"> 
+            
+            <!-- FLOP DIVS -->
+            <div class="flop" id="f11"> </div>
+            <div class="flop" id="f12"> </div>
+            <div class="flop" id="f13"> </div>
+            <div class="flop" id="f14"> </div>
+            <div class="flop" id="f15"> </div>
+            <div class="flop" id="f16"> </div>
+            <div class="flop" id="f17"> </div>
+            <div class="flop" id="f18"> </div>
+            
+            <!--   -->
+            
+            <canvas id="graph" width="590" height="220"> </canvas>
+            <ul class="list-inline week">
+              <li>MON</li>
+              <li>TUE</li>
+              <li>WED</li>
+              <li>THU</li>
+              <li>FRI</li>
+              <li>SAT</li>
+              <li>SUN</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-5 col-xs-offset-2 col-sm-offset-2 col-lg-offset-0  col-xs-5 " id="t">
+        <div id="tournoments"  >
+          <div id="header-middle-left">
+            <div>
+              <h3>Active Tournaments</h3>
+            </div>
+            <div class="dropdown" id="test5">
+              <div id="dLabel1" data-target="#" href="#" data-toggle="dropdown" aria-haspopup"true" role="button" aria-expanded="false"> Monthly <span class="caret"></span> </div>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLable1">
+                <li><a href="#">Daily</a>
+                <li>
+                <li><a href="#">Yearly</a>
+                <li>
+              </ul>
+            </div>
+          </div>
+          <div id="testforhover2">
+            <p>400 <span class="glyphicon glyphicon-arrow-up">14%</span></p>
+            <div id="rechover2"> </div>
+            <div id="circlesmall1"> </div>
+          </div>
+          <div id="divgraph2"> 
+            
+            <!-- FLOP DIVS -->
+            <div class="flop" id="f21"> </div>
+            <div class="flop" id="f22"> </div>
+            <div class="flop" id="f23"> </div>
+            <div class="flop" id="f24"> </div>
+            <div class="flop" id="f25"> </div>
+            <div class="flop" id="f26"> </div>
+            <div class="flop" id="f27"> </div>
+            <div class="flop" id="f28"> </div>
+            
+            <!--   -->
+            
+            <canvas id="graph2" width="525" height="220">
+          </div>
+          </canvas>
+          <ul class="list-inline week">
+            <li>JAN</li>
+            <li>FEB</li>
+            <li>MAR</li>
+            <li>APR</li>
+            <li>MAY</li>
+            <li>JUN</li>
+            <li>JUL</li>
+          </ul>
+          <ul class="list-inline" id="listdown">
+            <li>New Players</li>
+            <li>Revisited</li>
+            <li>Commented</li>
+            <li>Active Players</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <!--////////////////////// table///////////////////////////-->
+    
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-0  col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-2">
+        <div id="recent"  >
+          <div id="header-bottom-left">
+            <div id="test1">
+              <h3>Recent Players</h3>
+            </div>
+            <div class="pag-div" id="test2">
+              <ul id="pagination">
+                <li><a href="#"><span class="glyphicon glyphicon-triangle-left"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-triangle-right"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <table>
+              <tr >
+                <td id="td1">
+              <tr id="tr1" >
+                <td><img class="img-circle" src="" /></td>
+                <td><p>1 up</p>
+                  <p>1 down</p></td>
+                <td><img class="img-circle" src="" /></td>
+                <td><p>2 up</p>
+                  <p>2 down</p></td>
+                <td><img class="img-circle" src="" /></td>
+                <td><p>3 up</p>
+                  <p>3 down</p></td>
+              </tr>
+              <tr id="tr2" >
+                <td><img class="img-circle" src="" /></td>
+                <td><p>1 up</p>
+                  <p>1 down</p></td>
+                <td><img class="img-circle" src="" /></td>
+                <td><p>2 up</p>
+                  <p>2 down</p></td>
+                <td><img class="img-circle" src="" /></td>
+                <td><p>3 up</p>
+                  <p>3 down</p></td>
+              </tr>
+              <tr id="tr3" >
+                <td><img class="img-circle" src="" /></td>
+                <td><p>1 up</p>
+                  <p>1 down</p></td>
+                <td><img class="img-circle" src="" /></td>
+                <td><p>2 up</p>
+                  <p>2 down</p></td>
+                <td><img class="img-circle" src="" /></td>
+                <td><p>3 up</p>
+                  <p>3 down</p></td>
+              </tr>
+                </td>
+              
+                </tr>
+              
+            </table>
+          </div>
+        </div>
+        <!--//////////////////////baraye divi ke col-  darad///////////////////////////--> 
+      </div>
+      <!--////////////////////// donut///////////////////////////-->
+      
+      <div class="col-sm-6     col-lg-5 col-lg-offset-0  col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-2 " id="donutall" >
+        <div id="statistics" >
+          <div id="header-bottom-right" >
+            <div id="statistics-header">
+              <h3>Player Statistics</h3>
+            </div>
+            <div class="pag-div" id="test3">
+              <ul id="pagination-donut1">
+                <li><a href="#"><span class="glyphicon glyphicon-triangle-left"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-triangle-right"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <canvas id="donutCanvas1" width="107" height="164"> Your browser does not support the HTML5 canvas tag. </canvas>
+          <canvas id="donutCanvas2" width="123" height="164"> Your browser does not support the HTML5 canvas tag. </canvas>
+          <canvas id="donutCanvas3" width="123" height="164"> Your browser does not support the HTML5 canvas tag. </canvas>
+          <canvas id="donutCanvas4" width="123" height="164"> Your browser does not support the HTML5 canvas tag. </canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--////////////////////// donut///////////////////////////--> 
+  
+  <script type="text/javascript" src="js/json-ajax.js"></script> 
+  <script type="text/javascript" src="js/donuts.js"></script> 
+  <script type="text/javascript" src="js/canvas2.js"></script> 
+</div>
+</div>
+<script type="text/javascript" src="js/flop2.js"></script>
+</body>
+</html>
